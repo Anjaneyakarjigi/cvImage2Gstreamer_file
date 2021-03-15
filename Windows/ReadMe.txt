@@ -4,10 +4,10 @@ Takes input images read from the Opencv VideoCapture, puts into Gstreamer pipeli
 
 Run this project by below Command
 
-/* Build project */
-cmake -H. -Bbuild -G "Visual Studio 12 2013 Win64"
+/* Build project with below command line */ // Change Visual studio based on your version
+cmake -H. -Bbuild -G "Visual Studio 12 2013 Win64"  
 
-/* Compile project */
+/* Compile project with below command line */
 cmake --build build  --config Release
 
 // compilation adds cvImageToGstreamerFile into folder
